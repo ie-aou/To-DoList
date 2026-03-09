@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>create</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>✨ タスクの作成 ✨</h1>
+            <form method="post" action="createServlet" class="create">
+                <div class="todo">
+                    タイトル： <input type="text" name="title"><br>
+                </div>
+                <div class="todo">
+                    重要度　： <input type="radio" name="priority" value="高">高
+                    <input type="radio" name="priority" value="中">中
+                    <input type="radio" name="priority" value="低">低<br>
+                </div>    
+                <div class="todo">
+                    詳細　　： <textarea name="detail" id="" cols="30"></textarea><br>
+                </div>
+                <div class="todo">
+                    <button type="submit">登録</button>
+                </div>
+            </form>
+        <a href="index.html">トップに戻る</a>
+    </div>       
+</body>
+</html>
