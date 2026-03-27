@@ -4,6 +4,13 @@
 授業の課題で制作したTodoリストのWebアプリです。サーブレットを使用して、http通信のリクエスト・レスポンスの仕組みを理解する目的で制作しました。  
 タスクの名前、詳細、優先度をつけて登録できます。選択して削除、まとめて削除できます。
 
+## イメージ
+![トップ画面](TodoList/image/screenshot2.png)
+![タスク一覧（タスクなし）](TodoList/image/screenshot1.png)
+![タスク作成画面](TodoList/image/screenshot3.png)
+![タスク一覧](TodoList/image/screenshot4.png)
+
+
 ## 使用技術
 - 言語: Java
 - Webコンテナ: Apache Tomcat
